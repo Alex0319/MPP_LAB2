@@ -40,5 +40,21 @@ namespace UnitTestsWeak
             testEventFunc += (Func<string, int, string, string>)weakRef;
             Assert.AreEqual("12716", testEventFunc.Invoke("12", 7, "16"));
         }
+
+        private event Action sampleEvent;
+        [TestMethod]
+        public void TestMethod_EmptyAction()
+        {
+            var testMethods = new ClassWithMethodsForTest();
+            var weakRef = new WeakDelegateClass((Action)(testMethods.NullFunc));
+            sampleEvent += (Action)weakRef;
+            sampleEvent.Invoke();
+            Assert.IsFalse(weakRef.isNullTarget);
+            testMethods = null;
+            GC.Collect();
+            sampleEvent.Invoke();
+            Assert.IsTrue(weakRef.isNullTarget);
+
+        }
     }
 }
