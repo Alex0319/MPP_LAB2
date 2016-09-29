@@ -1,0 +1,7 @@
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\bin\Debug\UnitTestsWeak.dll
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\bin\Debug\UnitTestsWeak.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\bin\Debug\WeakDelegate.exe
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\bin\Debug\WeakDelegate.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\obj\Debug\UnitTestsWeak.csprojResolveAssemblyReference.cache
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\obj\Debug\UnitTestsWeak.dll
+E:\lAB\5 семестр\СПП\MPP_LAB2\UnitTestsWeak\obj\Debug\UnitTestsWeak.pdb

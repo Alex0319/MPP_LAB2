@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>224f608d-9df0-4836-9510-8cad38fad020</ProjectGuid>
+    <ProjectGuid>{967DC723-E79A-4461-8ED3-98A23758E4B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnitTestsWeak</RootNamespace>
@@ -50,8 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ClassWithMethodsForTest.cs" />
+    <Compile Include="UnitTestWeak.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeakDelegate.csproj">
+      <Project>{cbc9fc30-d138-48f4-887c-20af675380de}</Project>
+      <Name>WeakDelegate</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

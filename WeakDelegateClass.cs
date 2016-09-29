@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace WeakDelegate
 {
-
     public class WeakDelegateClass
     {
         private MethodInfo weakMethod;
