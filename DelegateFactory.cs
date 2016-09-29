@@ -85,7 +85,7 @@ namespace WeakDelegate
 
         private ParameterExpression[] GetArgumentsType()
         {
-            return weakMethod.GetParameters().Select(parameter=>Expression.Parameter(parameter.GetType())).ToArray();
+            return weakMethod.GetParameters().Select(parameter=>Expression.Parameter(parameter.ParameterType)).ToArray();
         }
     }
 }

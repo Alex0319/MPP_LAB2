@@ -15,9 +15,9 @@ namespace UnitTestsWeak
             resultIntValue = x + y;
         }
 
-        public void Mul(int x, int y)
+        public void Mul(int x, int y,byte z)
         {
-            resultIntValue = x * y;
+            resultIntValue = x * y * z;
         }
 
         public void makeString(string firstStr, int number,string secondString)
