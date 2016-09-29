@@ -20,9 +20,9 @@ namespace UnitTestsWeak
             resultIntValue = x * y * z;
         }
 
-        public void makeString(string firstStr, int number,string secondString)
+        public string makeString(string firstStr, int number,string secondString)
         {
-            resultStringValue = firstStr + number.ToString() + secondString;
+            return firstStr + number.ToString() + secondString;
         }
     }
 }
