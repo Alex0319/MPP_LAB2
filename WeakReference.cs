@@ -11,6 +11,8 @@ namespace WeakDelegate
 
     public class WeakDelegate
     {
+        private MethodInfo weakMethod;
+        private WeakReference weakTarget;
 
 
     }

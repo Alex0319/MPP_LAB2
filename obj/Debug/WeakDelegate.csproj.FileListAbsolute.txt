@@ -4,3 +4,4 @@ E:\lAB\5 семестр\СПП\MPP_LAB2\bin\Debug\WeakDelegate.exe
 E:\lAB\5 семестр\СПП\MPP_LAB2\bin\Debug\WeakDelegate.pdb
 E:\lAB\5 семестр\СПП\MPP_LAB2\obj\Debug\WeakDelegate.exe
 E:\lAB\5 семестр\СПП\MPP_LAB2\obj\Debug\WeakDelegate.pdb
+E:\lAB\5 семестр\СПП\MPP_LAB2\obj\Debug\WeakDelegate.csprojResolveAssemblyReference.cache
